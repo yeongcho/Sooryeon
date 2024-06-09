@@ -1,0 +1,225 @@
+.noto-sans-kr {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.gowun-batang-regular {
+    font-family: "Gowun Batang", serif;
+    font-weight: 550;
+    font-style: normal;
+}
+
+.navTextColor {
+    color: #0B4F30;
+}
+
+.navTextColor:hover {
+    color: #AAAAAA;
+}
+
+header {
+    background-image: url('Image/lotus.jpg');
+    background-size: cover;
+    background-position: center 30% ;
+    background-attachment: fixed;
+}
+
+.introduction {
+    width: 30%;
+    background-color: black;
+    padding: 0 3%;
+    text-align: justify;
+}
+
+.sooryeon {
+    font-size: 600%;
+    float: left;
+    margin-right: 5%;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.acneKindImg {
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 23%;
+    border-radius: 50%;
+    border-color: #6FA58B;
+    border-style: solid;
+}
+
+.vText {
+    font-size: 400%; 
+    font-weight:lighter; 
+    margin-top: 6%;
+}
+
+.vText:hover {
+    opacity: 0.5;
+}
+
+.thesis {
+    color: #AAAAAA;
+}
+
+.thesisLink {
+    margin-top: 2%;
+}
+
+.methodImg1 {
+    width: 100%;
+    height: 44%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('Image/method1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+.mar {
+    width: 100%;
+    height: 2%;
+}
+
+.mar2 {
+    width: 2%;
+    height: 44%;
+    float: left;
+}
+
+.methodImg2, .methodImg3 {
+    width: 49%;
+    height: 44%;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.methodImg2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('Image/method2.jpg');
+}
+
+.methodImg3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('Image/method3.jpg');
+}
+
+button {
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0.1px;
+    font-size: small;
+    padding: 5px 22px;
+}
+
+.methodText {
+    padding: 30px;
+}
+
+footer {
+    color: #AAAAAA;
+}
+
+
+.gray {
+    color: #AAAAAA;
+}
+
+.lightGreen {
+    color:#6FA58B
+}
+.green {
+    color: #0B4F30;
+}
+
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    float: right;
+    bottom: 50px;
+    z-index: 99999;
+    background: #6FA58B;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: all 0.4s;
+  }
+  
+  .back-to-top i {
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+  }
+  
+  .back-to-top:hover {
+    background: #0B4F30;
+    color: #fff;
+  }
+  
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+.causeImg1 {
+    display: inline-block;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('Image/cause1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 10% 7%;
+    color : white;
+}
+
+.causeImg1:hover {
+    background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)),url('Image/cause1.jpg');
+    color : #6FA58B;
+}
+
+.causeImg2 {
+    display: inline-block; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('Image/cause2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 10% 7%;
+    color : white;
+}
+
+.causeImg2:hover {
+    background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)),url('Image/cause2.jpg');
+    color : #6FA58B;
+}
+
+.causeImg3 {
+    display: inline-block; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('Image/cause3.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 10% 7%;
+    color : white;
+}
+
+.causeImg3:hover {
+    background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)),url('Image/cause3.jpg');
+    color : #6FA58B;
+}
+
+.causeImg4 {
+    display: inline-block; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('Image/cause4.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 10% 7%;
+    color : white;
+}
+
+.causeImg4:hover {
+    background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)),url('Image/cause4.jpg');
+    color : #6FA58B;
+}
+  

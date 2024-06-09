@@ -1,0 +1,178 @@
+.noto-sans-kr {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.gowun-batang-regular {
+    font-family: "Gowun Batang", serif;
+    font-weight: 550;
+    font-style: normal;
+}
+
+.navTextColor {
+    color: #0B4F30;
+}
+
+.navTextColor:hover {
+    color: #AAAAAA;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('Image/method1.jpg');
+    background-size: cover;
+    background-position: center 30% ;
+    background-attachment: fixed;
+    z-index: 10000;
+}
+
+.method1 {
+    font-size: 800%;
+    color:white;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 7%;
+    z-index: 100;
+}
+
+.mains {
+    padding: 1% 0;
+}
+
+.methodText {
+    padding: 30px;
+}
+
+.ingredient1 {
+    display: inline-block;
+    background-size: cover; 
+    background-position: center; 
+    padding: 15% 0;
+    background-image: url('Image/AHA_BHA_PHA_LHA.jpg');
+}
+
+.ingredient1:hover {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(Image/AHA_BHA_PHA_LHA.jpg);
+}
+
+.ingredient2 {
+    display: inline-block;
+    background-size: cover; 
+    background-position: center; 
+    padding: 15% 0;
+    background-image: url('Image/CentellaAsiaticaExtract.jpg');
+}
+
+.ingredient2:hover {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(Image/CentellaAsiaticaExtract.jpg);
+}
+
+.ingredient3 {
+    display: inline-block;
+    background-size: cover; 
+    background-position: center; 
+    padding: 15% 0;
+    background-image: url('Image/Niacinamide.jpg');
+}
+
+.ingredient3:hover {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(Image/Niacinamide.jpg);
+}
+
+.ingredient4 {
+    display: inline-block;
+    background-size: cover; 
+    background-position: center; 
+    padding: 15% 0;
+    background-image: url('Image/Panthenol.jpg');
+}
+
+.ingredient4:hover {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(Image/Panthenol.jpg);
+}
+
+.ingredient5 {
+    display: inline-block;
+    background-size: cover; 
+    background-position: center; 
+    padding: 15% 0;
+    background-image: url('Image/Retinol.jpg');
+}
+
+.ingredient5:hover {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(Image/Retinol.jpg);
+}
+
+.ingredient6 {
+    display: inline-block;
+    background-size: cover; 
+    background-position: center; 
+    padding: 15% 0;
+    background-image: url('Image/VitaminC.jpg');
+}
+
+.ingredient6:hover {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(Image/VitaminC.jpg);
+}
+
+.ingredient7 {
+    display: inline-block;
+    background-size: cover; 
+    background-position: center; 
+    padding: 15% 0;
+    background-image: url('Image/TeaTree.jpg');
+}
+
+.ingredient7:hover {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(Image/TeaTree.jpg);
+}
+
+footer {
+    color: #AAAAAA;
+}
+
+
+.gray {
+    color: #AAAAAA;
+}
+
+.lightGreen {
+    color:#6FA58B
+}
+.green {
+    color: #0B4F30;
+}
+
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    float: right;
+    bottom: 50px;
+    z-index: 99999;
+    background: #6FA58B;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: all 0.4s;
+  }
+  
+  .back-to-top i {
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+  }
+  
+  .back-to-top:hover {
+    background: #0B4F30;
+    color: #fff;
+  }
+  
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  
