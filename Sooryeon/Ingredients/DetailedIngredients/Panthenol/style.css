@@ -1,0 +1,117 @@
+.noto-sans-kr {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.gowun-batang-regular {
+    font-family: "Gowun Batang", serif;
+    font-weight: 550;
+    font-style: normal;
+}
+
+.navTextColor {
+    color: #0B4F30;
+}
+
+.navTextColor:hover {
+    color: #AAAAAA;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../../Image/Panthenol.jpg');
+    background-size: cover;
+    background-position: center 30% ;
+    background-attachment: fixed;
+}
+
+.method1 {
+    font-size: 800%;
+    color:white;
+    text-align: center;
+    margin-top: 30%;
+    margin-bottom: 3%;
+}
+
+.vTitle {
+    font-size: 700%; 
+    padding-bottom: 50%;
+}
+
+.vTitle:hover {
+    opacity: 0.5;
+}
+
+.mains {
+    padding: 1% 0;
+}
+
+.methodText {
+    padding: 30px;
+}
+
+.ingredientBackground1 {
+    background-size:cover; 
+    padding: 12% 0;
+    background-image: url('../../Image/Panthenol.jpg');
+    background-position: top;
+}
+
+.ingredientBackground2 {
+    background-size:cover; 
+    padding: 7% 0;
+    background-image: url('../../Image/Panthenol.jpg');
+    background-position: bottom;
+}
+
+.line {
+    border-right: 1px solid #AAAAAA;
+}
+
+footer {
+    color: #AAAAAA;
+}
+
+.gray {
+    color: #AAAAAA;
+}
+
+.lightGreen {
+    color:#6FA58B
+}
+.green {
+    color: #0B4F30;
+}
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    float: right;
+    bottom: 50px;
+    z-index: 99999;
+    background: #6FA58B;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: all 0.4s;
+  }
+  
+  .back-to-top i {
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+  }
+  
+  .back-to-top:hover {
+    background: #0B4F30;
+    color: #fff;
+  }
+  
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  
